@@ -1,0 +1,94 @@
+{
+  "schema": "elsemesh.world-repository/3",
+  "version": 3,
+  "projectSchema": "elsemesh.worlds.project/2",
+  "engine": {
+    "commit": "95719848d5ffa4428b57c75c272483e1c2113a72",
+    "contract": "elsemesh.worlds.runtime/1",
+    "requires": [
+      "objects",
+      "portal/1",
+      "project/2",
+      "retro-terminal/1",
+      "terrain",
+      "water/1",
+      "weather"
+    ]
+  },
+  "snapshot": "246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6",
+  "components": {
+    "metadata": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/metadata.json",
+      "sha256": "e09083417f291ec48ef819476fc1ed46f906bba019afa7d6135900b8eeb907c8",
+      "bytes": 413
+    },
+    "terrain": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/terrain.json",
+      "sha256": "e829523b8c30a0e90801e37e5de0beaad4e75bb07b1006c40e4780e7947d72ad",
+      "bytes": 2018773
+    },
+    "objects": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/objects.json",
+      "sha256": "8d2d5296e6eb90722c316bfc2895f708f79563c96449ddc6e2b9c2c80851dbd4",
+      "bytes": 678947
+    },
+    "features": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/features.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    "environment": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/environment.json",
+      "sha256": "5a88285e1c8d43d5d807d8d837cb63ff61be3930ad35014330b55d55a548a58f",
+      "bytes": 200
+    },
+    "spawn": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/spawn.json",
+      "sha256": "8409c9273ea815e204ede2873c6918c0b7ecc3e9c2bee1323138fc00890c4d80",
+      "bytes": 59
+    },
+    "geography": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/geography.json",
+      "sha256": "f1458c60dfd49fdb5f41ed852e5627e02445867a5a505e5863982b37ac6d7902",
+      "bytes": 50
+    },
+    "assets": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/assets.json",
+      "sha256": "6a972cffe1945e14f01daa6501687809fc532558d72d1c2083af017a3f163058",
+      "bytes": 57261
+    },
+    "connections": {
+      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/connections.json",
+      "sha256": "62a70de7cd1b2b780fb5684e52071f391e2eb1ab66e9bef286322e474f695016",
+      "bytes": 1688
+    }
+  },
+  "world": {
+    "name": "Loz's Warehouse Island",
+    "description": "Loz-owned independent world: editable warehouse, original ElseMesh mountain height data, sandy shoreline, bounded sea, live C64 terminal and federated portal. Original ElseMesh source and asset attribution retained.",
+    "worldId": "elsemesh.world:2842c4f2-93a0-4492-b942-e53e524de319",
+    "regionId": "elsemesh.region:3c498d61-7d1f-478a-8a85-d9e66d3b63fb"
+  },
+  "regions": [
+    {
+      "regionId": "elsemesh.region:3c498d61-7d1f-478a-8a85-d9e66d3b63fb",
+      "name": "Loz's Warehouse Island",
+      "scene": {
+        "snapshot": "246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6"
+      }
+    }
+  ],
+  "attribution": {
+    "authors": [
+      "Loz",
+      "DRG Software Solutions LLC"
+    ],
+    "license": "MIT; asset-specific licences retained",
+    "source": "ElseMesh source and editor asset records"
+  },
+  "provenance": {
+    "sourceWorldId": "elsemesh.world:2842c4f2-93a0-4492-b942-e53e524de319",
+    "sourceCommit": "23dccc19ed1e8b1f274543403522b115260c6954",
+    "sourceDigest": "d054b1ddee6dded89ee586ae582b20c9c1fc677ef1b135e4478ed97414ec804b"
+  }
+}
