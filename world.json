@@ -6,66 +6,71 @@
     "commit": "95719848d5ffa4428b57c75c272483e1c2113a72",
     "contract": "elsemesh.worlds.runtime/1",
     "requires": [
+      "media-screen/1",
+      "native-island/1",
+      "object-access/1",
       "objects",
       "portal/1",
       "project/2",
       "retro-terminal/1",
       "terrain",
+      "water-exclusion/1",
       "water/1",
-      "weather"
+      "weather",
+      "welcome/1"
     ]
   },
-  "snapshot": "246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6",
+  "snapshot": "1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38",
   "components": {
     "metadata": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/metadata.json",
-      "sha256": "e09083417f291ec48ef819476fc1ed46f906bba019afa7d6135900b8eeb907c8",
-      "bytes": 413
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/metadata.json",
+      "sha256": "f491b9c5c56953f258d3512fc8c7bac171f113379a96ab250b5819380689df53",
+      "bytes": 530
     },
     "terrain": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/terrain.json",
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/terrain.json",
       "sha256": "e829523b8c30a0e90801e37e5de0beaad4e75bb07b1006c40e4780e7947d72ad",
       "bytes": 2018773
     },
     "objects": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/objects.json",
-      "sha256": "8d2d5296e6eb90722c316bfc2895f708f79563c96449ddc6e2b9c2c80851dbd4",
-      "bytes": 678947
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/objects.json",
+      "sha256": "c773371d5de6b20cdc356bfe26f5abb8d3883bd7f9c32fb42d3cc1692dd9b97d",
+      "bytes": 679454
     },
     "features": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/features.json",
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/features.json",
       "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
       "bytes": 3
     },
     "environment": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/environment.json",
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/environment.json",
       "sha256": "5a88285e1c8d43d5d807d8d837cb63ff61be3930ad35014330b55d55a548a58f",
       "bytes": 200
     },
     "spawn": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/spawn.json",
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/spawn.json",
       "sha256": "8409c9273ea815e204ede2873c6918c0b7ecc3e9c2bee1323138fc00890c4d80",
       "bytes": 59
     },
     "geography": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/geography.json",
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/geography.json",
       "sha256": "f1458c60dfd49fdb5f41ed852e5627e02445867a5a505e5863982b37ac6d7902",
       "bytes": 50
     },
     "assets": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/assets.json",
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/assets.json",
       "sha256": "6a972cffe1945e14f01daa6501687809fc532558d72d1c2083af017a3f163058",
       "bytes": 57261
     },
     "connections": {
-      "path": "snapshots/246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6/connections.json",
-      "sha256": "62a70de7cd1b2b780fb5684e52071f391e2eb1ab66e9bef286322e474f695016",
-      "bytes": 1688
+      "path": "snapshots/1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38/connections.json",
+      "sha256": "f2f202efb96450d56eb1588ff81a7754056f84a73f9bd708eb436a0d836ea638",
+      "bytes": 1284521
     }
   },
   "world": {
     "name": "Loz's Warehouse Island",
-    "description": "Loz-owned independent world: editable warehouse, original ElseMesh mountain height data, sandy shoreline, bounded sea, live C64 terminal and federated portal. Original ElseMesh source and asset attribution retained.",
+    "description": "Loz-owned independent world: editable warehouse, original ElseMesh mountain height data, sandy shoreline, bounded sea, live C64 terminal and federated portal. Original ElseMesh source and asset attribution retained. Large editable flat-screen TV streams the user-selected YouTube video through the supported media-screen capability.",
     "worldId": "elsemesh.world:2842c4f2-93a0-4492-b942-e53e524de319",
     "regionId": "elsemesh.region:3c498d61-7d1f-478a-8a85-d9e66d3b63fb"
   },
@@ -74,21 +79,20 @@
       "regionId": "elsemesh.region:3c498d61-7d1f-478a-8a85-d9e66d3b63fb",
       "name": "Loz's Warehouse Island",
       "scene": {
-        "snapshot": "246aca4e1569c84da68980554b98fb0d50000cbd2442ecc99a8d4a9dcbff75c6"
+        "snapshot": "1a7a1cce5286082e3cb8ae604f7615f12760af0514acd9d942faf34b8f473a38"
       }
     }
   ],
   "attribution": {
     "authors": [
-      "Loz",
-      "DRG Software Solutions LLC"
+      "ElseMesh contributors",
+      "Loz"
     ],
-    "license": "MIT; asset-specific licences retained",
-    "source": "ElseMesh source and editor asset records"
+    "license": "Original component and asset licences retained; YouTube video is streamed from its provider, not copied into this repository."
   },
   "provenance": {
     "sourceWorldId": "elsemesh.world:2842c4f2-93a0-4492-b942-e53e524de319",
-    "sourceCommit": "23dccc19ed1e8b1f274543403522b115260c6954",
-    "sourceDigest": "d054b1ddee6dded89ee586ae582b20c9c1fc677ef1b135e4478ed97414ec804b"
+    "sourceDigest": "1c8d3b586fd977de65d5af16455b3fd7cc3a37555fc1322d950f176262affbf2",
+    "sourceLocation": "Public authored-world snapshot; private runtime state and access grants are excluded."
   }
 }

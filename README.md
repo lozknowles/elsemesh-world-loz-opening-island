@@ -1,9 +1,24 @@
-# Loz's opening warehouse island
+# Loz's Warehouse Island
 
-Public read-only snapshot for the ElseMesh opening world. Includes the warehouse and retro computers, sandy beaches, sea and original mountain terrain.
+Prepared release candidate; no push, deployment, private runtime migration or new live acceptance is implied.
 
-This repository contains authored data and self-contained assets only. It is an intentionally published replica with the same stable world ID as the privately maintained original, not a new independent world. No private Git history, runtime credentials, signing keys, player sessions or multiplayer authority are included. Portal references retain stable destination IDs; the public game shows those portals offline until separately authorised by a game server. The public portal label is neutral.
+World ID: `elsemesh.world:2842c4f2-93a0-4492-b942-e53e524de319`  
+Region ID: `elsemesh.region:3c498d61-7d1f-478a-8a85-d9e66d3b63fb`  
+Repository schema: `elsemesh.world-repository/3`  
+Project schema: `elsemesh.worlds.project/2`
 
-Source content was selected from commit 23dccc19ed1e8b1f274543403522b115260c6954, manifest digest d054b1ddee6dded89ee586ae582b20c9c1fc677ef1b135e4478ed97414ec804b. The original source and asset attribution are retained in world.json and asset records. All 59 warehouse model records retain MIT attribution to DRG Software Solutions LLC; see LICENSE. No aerial imagery is included.
+Required installed capabilities: `media-screen/1`, `native-island/1`, `object-access/1`, `objects`, `portal/1`, `project/2`, `retro-terminal/1`, `terrain`, `water-exclusion/1`, `water/1`, `weather`, `welcome/1`.
 
-Load through ElseMesh Worlds or the existing validated ElseMesh repository runtime. Use actual files, not Git LFS pointers. Updates are deliberate new commits and deployment pins; editing the private original does not update this replica. A new independent fork should receive a new world ID while preserving provenance.
+Public content snapshot of the SAME authored Loz world, not a new world identity. It contains authored action ceilings and portal target IDs, not owner keys, runtime contacts, private per-player grants or portal admissions. Importing this snapshot grants no runtime access. Native visuals/media remain dependent on the installed supported engine and provider interaction. Full original legacy game additions are excluded.
+
+## Identity and runtime permissions
+
+This public snapshot deliberately shares the permanent identity of the privately operated Loz world. It is a content snapshot, not a separate live authority. Authored action ceilings describe supported actions; they are not private per-player access grants. Owner keys, ledger/session state, endpoints, contacts, signed invitations and runtime admissions are not included. A recipient must configure their own reviewed runtime permissions; importing data confers no access to an existing owner service.
+
+## Content and storage
+
+Only the active immutable snapshot and its required asset/native resource closure are included; older snapshots and Git history are absent from this candidate. Current content uses ordinary Git with hashed binary files, no Git LFS pointer files, hooks, executable runtime code or install scripts. The dock licence-source ZIP is an explicit retained nonexecuted source archive, not runtime code. Native field resources preserve the fine source data; renderer resource residency/streaming limits remain engine concerns.
+
+Future larger assets may require another storage provider; that provider is not selected and no endpoint or migration is configured here. Do not add placeholder credentials or pretend a future provider is active.
+
+See ATTRIBUTION.md and retained source/licence notices. Asset-specific licences take precedence; no new blanket licence is invented for unlicensed user-authored content.
