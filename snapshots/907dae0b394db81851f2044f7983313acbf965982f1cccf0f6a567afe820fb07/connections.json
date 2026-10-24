@@ -41915,8 +41915,8 @@
         "height": 128,
         "format": "u8",
         "channels": 4,
-        "path": "native-island/c6c9a195664c62107884a6b0efd5fd8c2d040238ea82a34c702f5206a4c462be.bin",
-        "sha256": "c6c9a195664c62107884a6b0efd5fd8c2d040238ea82a34c702f5206a4c462be",
+        "path": "native-island/a44259028b749a17b04ddc8802d7831a1afdc83f53c7365188d8a2ebe209ef69.bin",
+        "sha256": "a44259028b749a17b04ddc8802d7831a1afdc83f53c7365188d8a2ebe209ef69",
         "bytes": 65536,
         "min": 0,
         "max": 255
@@ -41931,8 +41931,8 @@
         "height": 128,
         "format": "u8",
         "channels": 4,
-        "path": "native-island/dbd7572c0a30951b5fc7ebc395680cbec4d2a129890e16b82d463329efd63e52.bin",
-        "sha256": "dbd7572c0a30951b5fc7ebc395680cbec4d2a129890e16b82d463329efd63e52",
+        "path": "native-island/62d48d6314afc05e28c9f976f4424107af567f7e7086a6637a675dc71d7eff89.bin",
+        "sha256": "62d48d6314afc05e28c9f976f4424107af567f7e7086a6637a675dc71d7eff89",
         "bytes": 65536,
         "min": 0,
         "max": 255
@@ -42705,7 +42705,7 @@
             -90.5
           ],
           "max": [
-            14.5,
+            15.75,
             8.5,
             -63.5
           ]

@@ -22,3 +22,7 @@ Only the active immutable snapshot and its required asset/native resource closur
 Future larger assets may require another storage provider; that provider is not selected and no endpoint or migration is configured here. Do not add placeholder credentials or pretend a future provider is active.
 
 See ATTRIBUTION.md and retained source/licence notices. Asset-specific licences take precedence; no new blanket licence is invented for unlicensed user-authored content.
+
+Authored TV clearance placement: east wall at [15.6, 5.2, -77], yaw -PI/2, width 6.4 metres. Native clear-view and provider-playback acceptance is recorded separately from this content snapshot.
+
+Warehouse native grass-mask apron cleared at x[-30,30], z[-100,-54]; terrain, objects and vegetation records preserved. Native TV picture and provider playback accepted on MSI before this publication.
