@@ -5,3 +5,5 @@
 *.jpg binary
 *.bin binary
 *.zip binary
+
+*.sog binary

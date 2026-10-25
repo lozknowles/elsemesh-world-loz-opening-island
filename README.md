@@ -38,3 +38,10 @@ The east-wall television streams the named YouTube video using the installed med
 The dining table, six chairs, rug and place settings are authored at 65% of their previous horizontal dimensions and 80% of their previous height about the dining area floor. The table is 3.25 m by 1.3 m with a 0.816 m top; chair seats are about 0.507 m wide and 0.484 m high. The remaining rug, place settings and decorations keep their stable IDs and edits.
 
 The dining table, six chairs, two nesting tables, ground-floor side table and mezzanine reading table now use eleven instances of six reusable ElseMesh Worlds furniture GLBs. Each GLB is copied into this world as a content-addressed asset, so loading does not depend on the editor. The leading object ID of each former furniture assembly remains stable; retired component IDs and exact provenance are recorded in the asset metadata. All eleven furniture instances have solid bounds, including the legs; the collision proxy blocks movement under the table as well as through the top. Rug, tableware and flowers remain separately editable.
+
+
+## Public Sunset courtyard doorway
+
+The additional gold doorway at [-1.5, 4.45, -78.5] leads to the original 719,538-Gaussian Sunset courtyard. The Dock doorway and its authored target are retained. In the public single-player edition, only the published Warehouse/Sunset reciprocal route is enabled; this does not grant access to an owner-operated world session.
+
+The Sunset world source is in `worlds/sunset/`. Its visual scene and reviewed collision/support data are hash-addressed. Ground scale is assumed for gameplay and walking remains inside the verified corridor. The public release bundles both manifests under their full content digests and preserves the asset-specific notices. Duck, training/source footage, private runtime state and experimental player-eye viewing are not included.
