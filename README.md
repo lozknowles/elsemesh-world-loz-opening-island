@@ -40,8 +40,8 @@ The dining table, six chairs, rug and place settings are authored at 65% of thei
 The dining table, six chairs, two nesting tables, ground-floor side table and mezzanine reading table now use eleven instances of six reusable ElseMesh Worlds furniture GLBs. Each GLB is copied into this world as a content-addressed asset, so loading does not depend on the editor. The leading object ID of each former furniture assembly remains stable; retired component IDs and exact provenance are recorded in the asset metadata. All eleven furniture instances have solid bounds, including the legs; the collision proxy blocks movement under the table as well as through the top. Rug, tableware and flowers remain separately editable.
 
 
-## Public Sunset courtyard doorway
+## Public Table Tennis Room doorway
 
-The additional gold doorway at [-1.5, 4.45, -78.5] leads to the original 719,538-Gaussian Sunset courtyard. The Dock doorway and its authored target are retained. In the public single-player edition, only the published Warehouse/Sunset reciprocal route is enabled; this does not grant access to an owner-operated world session.
+The gold doorway at [-1.5, 4.45, -78.5] now leads to Table Tennis Room by ethan3111 (CC BY 4.0), with a reciprocal Warehouse return. The Dock doorway is retained. The active public package excludes Sunset; historical immutable snapshots remain for recovery.
 
-The Sunset world source is in `worlds/sunset/`. Its visual scene and reviewed collision/support data are hash-addressed. Ground scale is assumed for gameplay and walking remains inside the verified corridor. The public release bundles both manifests under their full content digests and preserves the asset-specific notices. Duck, training/source footage, private runtime state and experimental player-eye viewing are not included.
+Room source, original downloaded files, hash inventory, attribution and local collision review are in `worlds/table-tennis-room/`. Gameplay scale is assumed. Floor/table/safety proxies are conservative authored geometry; adjacent gym, outdoor access and stairs are outside the walkable crop. Requires an engine with the published-SOG source-manifest provenance variant and the exact Room profile.
